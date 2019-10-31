@@ -3,7 +3,6 @@ var tableData = data;
 
 let tbody = d3.select("tbody");
 
-
 function buildTable(data){
 
     tbody.html("");
@@ -18,7 +17,6 @@ function buildTable(data){
        });
     })
 }
-
 
 function handleClick(){
     d3.event.preventDefault();
